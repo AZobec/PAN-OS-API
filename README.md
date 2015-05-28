@@ -1,4 +1,4 @@
-# PAN-OS-API
+# Perl scripts for PAN-OS API - Monitor
 Some perl scripts to get informations from a PaloAlto Network appliance.
 
 I used them to get informations into my cacti in my company.
