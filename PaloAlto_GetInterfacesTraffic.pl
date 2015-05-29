@@ -21,8 +21,7 @@ my $input_ipsec_tunnel = 0;
 my $output_tunnel_one = 0;
 my $output_tunnel_two = 0;
 my $output_ipsec_tunnel = 0;
-my $URL = 'https://'.$hostname.'/api/?type=report&reporttype=dynamic&reportname=custom-dynamic-report&cmd=<type><threat><aggregate-by><member>threatid</member><member>severity</member></aggregate-by><values><member>repeatcnt</member></values></threat></type><period>last-15-minutes</period><topn>10</topn><topm>10</topm><caption>Threat-Last-15Mn</caption>&key='.$httpskey.'';
-
+my $URL = 'https://'.$hostname.'/api/?type=op&cmd=%3Cshow%3E%3Ccounter%3E%3Cinterface%3Eall%3C/interface%3E%3C/counter%3E%3C/show%3E&key='.$httpskey.'';
 #=================================
 #Récupération des Gb par tunnel
 #=================================

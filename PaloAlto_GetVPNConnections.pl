@@ -19,7 +19,7 @@ my $vpn_un = 0;
 my $vpn_deux = 0;
 my $vpn_trois = 0;
 my $un = 1;
-my $URL = 'https://'.$hostname.'/api/?type=report&reporttype=dynamic&reportname=custom-dynamic-report&cmd=<type><threat><aggregate-by><member>threatid</member><member>severity</member></aggregate-by><values><member>repeatcnt</member></values></threat></type><period>last-15-minutes</period><topn>10</topn><topm>10</topm><caption>Threat-Last-15Mn</caption>&key='.$httpskey.'';
+my $URL = 'https://'.$hostname.'/api/?type=op&cmd=%3Cshow%3E%3Cglobal-protect-gateway%3E%3Ccurrent-user%3E%3C/current-user%3E%3C/global-protect-gateway%3E%3C/show%3E&key='.$httpskey.'';
 my $ua = LWP::UserAgent->new(ssl_opts => { verify_hostname => 0 });
 
 
