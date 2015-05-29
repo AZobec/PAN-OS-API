@@ -9,4 +9,4 @@ Be careful, in some scripts, I don't handle with exceptions. I will correct that
 
 # /!\WARNING/!\
 
-In the GetSeverity script, i had to create a scheduled report on the PAN appliance, which gives us all the informations we need.
+In the GetSeverity script, i had to create a scheduled report on the PAN appliance, that gives us all the informations we need.
